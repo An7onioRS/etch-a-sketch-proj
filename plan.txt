@@ -1,0 +1,9 @@
+1) Understand and Explain the Problem (in plain English) - 1. I need to construct a square (grid) consisting of 16 rows and 16 columns by only using JS. 
+
+2) Plan steps in pseudocode
+
+    - Create the main-container div which will contain all the rows 
+    - Create 16 row-containers which will contain 16 squares ordered horizontally next to each other on each row (this has to be flex, flex-direction: row)
+    - Then put 16 element divs inside each of the 16 row-containers
+
+3) Divide into smaller problems
