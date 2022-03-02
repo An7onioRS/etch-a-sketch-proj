@@ -1,1 +1,1 @@
-# etch-a-sketch-proj
+# The project shows is a webpage with a 16x16 grid of square divs with hovering effects and buttons
