@@ -2,21 +2,41 @@
     box-sizing: border-box;
 }
 
-.main-container {
+body {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+    gap: 3rem;
+    background: goldenrod;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    background-color: #faed27;
+    font-size: 17px;
+}
+
+.grid {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center; 
+    align-items: center;  
     margin: 0 auto;
 }
 
 .row-container {
     display: flex;
+    width: 100%; 
+    justify-content: space-evenly;
 }
 
 .row-element {
-    background-color: black;
+    background-color: white;
+    border: 3px groove #faed27;
     width: 50px;
     height: 50px;
     margin: 0.1rem;
 }
+
